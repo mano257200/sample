@@ -1,0 +1,9 @@
+git --version  ==> show the version of the git
+git config --global user.name "w3schools-test"
+git config --global user.email "test@w3schools.com" ==>Change the user name and e-mail address to your own. You will probably also want to use this when registering to GitHub later on.
+mkdir myproject  ==> mkdir makes a new directory.
+cd myproject ==> cd changes the current working directory.
+git init ==> Initialized empty Git repository in /Users/user/myproject/.git/
+git add filename ==> add file iin git repostory
+git commit -m "message" filename
+git diff --staged [file] ==> Shows any changes between the staging area and the repository
